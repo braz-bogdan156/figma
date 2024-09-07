@@ -201,7 +201,6 @@
         .features__image-list {
             display: flex;
             position: relative;
-            width: 752px;
             height: 760px;
             overflow: hidden;
     
@@ -294,7 +293,6 @@
         .contents__cards {
             display: flex;
             justify-content: center;
-            flex-direction: row;
             gap: 33px;
         }
         
@@ -716,3 +714,184 @@
         .footer__social-icon {
             height: 41px;
         }
+
+                @media (min-width: 576px) {
+                    .header__nav.mobile {
+                        display: none;
+                    }
+                    .gallery__cart-list-mobile{
+                        display: none;
+                    }
+                    .partners__list-mobile{
+                        display: none;
+                    }
+                    .testimonials__content--mobile{
+                        display: none;
+                    }
+                    .typography--mobile{
+                        display: none;
+                    }
+                    
+                }
+        
+                @media (max-width: 575px) {
+        
+                    .container {
+                        display: flex;
+                        justify-content: center;
+                    }
+        
+                    .header__nav.desktop {
+                        display: none;
+                    }
+        
+                    .header__nav.mobile {
+                        display: inline;
+                    }
+        
+                    .mob {
+                        width: 66px;
+                        height: 53px;
+                        background-color: #181818;
+        
+                    }
+        
+                    .intro {
+                        margin-top: 57px;
+                        padding: 10px;
+                    }
+        
+                    .intro__title {
+                        font-size: 52px;
+                        font-weight: 400;
+                        line-height: 62px;
+                        letter-spacing: 0.2px;
+                        text-align: center;
+                    }
+        
+                    .intro__buttons {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 21px;
+                    }
+        
+                    .button--try-free,
+                    .button--learn-more {
+                        font-weight: 500;
+                        font-size: 17px;
+                        line-height: 25px;
+                        padding: 10px 30px;
+                    }
+        
+                    .intro__image-container {
+                        margin-top: 57px;
+        
+                    }
+
+                    .intro__image {
+                        height: auto;
+                        padding-bottom: 18px;
+                        
+                    }
+                    .features__frame{
+                        display: flex;
+                        flex-direction: column;
+                        
+                        
+                    }
+
+                    .features__image-list{
+                        height: auto;
+                    }
+                    .features__image--chat{
+                        width: 324px;
+                        height: 319px;
+                        
+
+                        }
+
+                    .features__image--linechart{
+                        width: 232px;
+                        height: 160px;
+                        
+                    }
+
+                    .contents__cards {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        
+                    }
+
+                    .contents__card--1{
+                       
+                        width: 348px;
+                        height: 573px;
+                        
+                    }
+
+                    .contents__card--2{
+                       
+                        width: 353px;
+                        height: 578px;
+                       
+                    }
+
+                    .gallery__carts{
+                        display: none;
+                    }
+                    .gallery__cart-list-mobile{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 33px;
+                        margin-top: 44px;
+                    }
+                    .gallery__cart-image--mobile {
+                        height: 285px;
+                        border-radius: 12px;
+                        width: 323px;
+                    }
+
+                    .gallery__buttons{
+                        margin-top: 44px;
+                    }
+                    .partners__list {
+                        display: none;
+                    }
+                    .partners__list-mobile{
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        gap: 50px;
+                    }
+
+                    .partners__item--1, .partners__item--2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                  .testimonials__content{
+                    display: none;
+                  }
+                  .testimonials__content--mobile {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 23px;
+                  }
+
+                  .testimonials__item{
+                    width: 352px;
+                    height: 376px;
+                 }
+
+                 .typography{
+                    display: none;
+                 }
+                 .typography--mobile{
+                     
+                    background: #343434;
+                 }
+                 
+                }
