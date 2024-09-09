@@ -16,6 +16,9 @@
     img {
         max-width: 100%;
     }
+    button{
+        cursor: pointer;
+    }
 
     ul li {
         list-style: none;
@@ -304,12 +307,24 @@
             
         }
         
+        .contents__card--1,
+        .contents__card--2{
+            background-color: #FFFFFF;
+            border-radius: 10px;
+        }
+
         .contents__card--1{
             gap: 57px;
-            background-color: #FFFFFF;
-            width: 476px;
             height: 625px;
-            border-radius: 10px;
+        }
+
+        .contents__card--2{
+            gap: 30px;
+            height: 620px;
+             }
+    
+        .contents__card-heading--2{
+            padding-top: 40px;
         }
 
         .contents__card-text {
@@ -355,17 +370,7 @@
             background-color: #DEDEDE;
         }
 
-        .contents__card--2{
-            gap: 30px;
-            background-color: #FFFFFF;
-            width: 476px;
-            height: 620px;
-            border-radius: 10px;
-        }
-    
-        .contents__card-heading--2{
-            padding-top: 40px;
-        }
+        
         .gallery {
             margin-top: 100px;
         }
